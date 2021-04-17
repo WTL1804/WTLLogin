@@ -1,0 +1,6 @@
+framework module WTLLogin {
+  umbrella header "WTLLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

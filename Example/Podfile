@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'WTLLogin_Example' do
   pod 'WTLLogin', :path => '../'
+  pod 'WTLNetWorking', :path => '../../WTLNetWorking'
 
   target 'WTLLogin_Tests' do
     inherit! :search_paths
